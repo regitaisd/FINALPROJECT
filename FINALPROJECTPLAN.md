@@ -1,7 +1,7 @@
 # FINAL PROJECT PLAN
 
-*Regita Isada
-Computer Science L1AC
+*Regita Isada /
+Computer Science L1AC /
 2001586350*
 
 FINAL PROJECT PLAN????
