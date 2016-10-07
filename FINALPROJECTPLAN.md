@@ -11,20 +11,16 @@ planned subjects that i want to input so far are
 *General Knowledge
 Music
 Mathematics
-Internet Culture
-CS-L1AC (aka how well do you know the class)*
+...TBA*
 
 THIS IS NOT FINAL, however, i may still need to change them in a later time.
-There will be a secret question in each category. in order to access it, everyone should answer every other question correctly.
-(this is also temporary)
-
-each category will have 3-5 questions, still undecided, yet i will decide when i start coding
-each question has 4 options
+everyone will be given a set of 20-25 questions, with either 4 or 5 for each category.
+each questions have 4 options and 3 chances to get the questions correctly
 
 how am i going to do this? 
 -use mostly the basics, i'll use functions when necessary
 -if/else if/else might play a huge role in this
--i'm also planning to add a return to menu option (this is also temporary)
+-i'm also planning to add a return to menu option (this is temporary)
 
 there might be changes to the plan, as this is just a plain draft
 
