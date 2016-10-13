@@ -1,0 +1,15 @@
+FINAL PROJECT UPDATE LOG
+
+10/06/2016
+-plan uploaded
+-unfinished hierarchy chart uploaded
+-theme: quiz
+
+10/13/2016 - SECOND WEEK
+-plan updated
+-changed theme; i decided to do a word
+ unscrambling program
+-hierarchy chart updated
+-code uploaded (contains only menu and
+ validation)
+-update log.txt uploaded
