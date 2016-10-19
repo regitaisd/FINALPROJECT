@@ -13,3 +13,9 @@ FINAL PROJECT UPDATE LOG
 -code uploaded (contains only menu and
  validation)
 -update log.txt uploaded
+
+10/19/2016 - THIRD WEEK
+-tweaked code a little bit
+-added struct, added function
+-needed to add validation for number, will
+ work on it soon
