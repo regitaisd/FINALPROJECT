@@ -19,3 +19,18 @@ FINAL PROJECT UPDATE LOG
 -added struct, added function
 -needed to add validation for number, will
  work on it soon
+
+10/27/2016 - FOURTH WEEK
+-replaced Struct with a Class with the name
+ "Unscramble", with the variables as the private
+ class and the functions as the public class
+-moved the codes to a folder called
+ FINALPROJECT_CODE to make it more neat
+
+10/28/2016 - 10/29/2016 - FOURTH WEEK
+-added header file called FINALPROJECT.hpp to
+ put in the class there so it won't be clumped
+ into one file
+-finished the code for Word unscrambler
+-tried the same code for word to number, but it
+does not work (do not try number first)
