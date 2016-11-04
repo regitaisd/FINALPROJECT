@@ -38,4 +38,5 @@ does not work (do not try number first)
 11/4/2016 - LAST WEEK
 -added functions numSwap and numPermute (void) for
  number unscrambler
--program doesn't run
+-program doesn't run (still trying to figure out
+ how to input blank arrays in class...)
