@@ -9,12 +9,14 @@ using namespace std;
 class Unscramble{
 	private: //private variables
 		int choice; //used for the choices in the menu interface
-		int number; //input for number unscrambling
+		int number[]; //input for number unscrambling
 		string word; //input for word unscrambling
 	public: //public variables
 	    //constructors:
 		Unscramble();
-		Unscramble(int choice, int number, string word);
+		Unscramble(int choice, int number[], string word);
+		
+		void setChoice(int choice);
 		//getter:
 		int getChoice();
 		string getWord();
@@ -22,19 +24,25 @@ class Unscramble{
 		
 		//functions:
 		
+		void menu();
+		
 		//used to switch the letters in the input string
 		void wordSwap(char& x, char& y);
+		void numSwap(int& x, int& y);
 		
 		//used to obtain how many arrangements the letters of the string
 		//or numbers of the array can be arranged
 		void wordPermute(string str, int i, int z);
+		void numPermute(int num[], int i, int z);
 		
 		//used to display the output
 		void displayDataWord();
 		void displayDataNumber();
 		
 		//used for exit validation
-		void exit();
+		void exitProgram();
+		//used for if the user wants to do it again
+		void again();
 };
 
 #endif /*FINALPROJECT_hpp*/

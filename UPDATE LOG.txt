@@ -34,3 +34,8 @@ FINAL PROJECT UPDATE LOG
 -finished the code for Word unscrambler
 -tried the same code for word to number, but it
 does not work (do not try number first)
+
+11/4/2016 - LAST WEEK
+-added functions numSwap and numPermute (void) for
+ number unscrambler
+-program doesn't run

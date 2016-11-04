@@ -7,10 +7,12 @@ using namespace std;
 int main(int argc, char** argv) {
 	
 	Unscramble c;
+	int choice;
+	
 	cout << "Welcome to the Word-Number Unscrambling program!" << endl;
 	cout << "This program shows how many ways you can write in a word or a number" << endl;
 	cout << "With the same letters and/or digits" << endl;
-	c.getChoice();
+	c.menu();
 	
 	return 0;
 }
