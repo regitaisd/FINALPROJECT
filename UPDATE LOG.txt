@@ -40,3 +40,13 @@ does not work (do not try number first)
  number unscrambler
 -program doesn't run (still trying to figure out
  how to input blank arrays in class...)
+
+11/5/2016 morning - LAST WEEK
+-finished the code for number unscrambling but when the
+program is compiled and run the program won't show
+the output results
+
+11/5/2016 - LAST WEEK
+-CODE DONE!
+-updated hierarchy chart
+-moved project design/plan to a .docx document

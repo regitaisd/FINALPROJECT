@@ -2,38 +2,40 @@
 #ifndef FINALPROJECT_hpp
 #define FINALPROJECT_hpp
 #include <string> //because this program uses string
+#include <stdlib.h> //for system("pause") and system("cls")
 using namespace std;
-
 
 //defines a class named Unscramble
 class Unscramble{
 	private: //private variables
-		int choice; //used for the choices in the menu interface
-		int number[]; //input for number unscrambling
-		string word; //input for word unscrambling
+		//used for the choices in the menu interface
+		int choice;
+		//input for number unscrambling(i used string because the function only works on string)
+		string numString;
+		//input for word unscrambling
+		string word;
 	public: //public variables
-	    //constructors:
-		Unscramble();
-		Unscramble(int choice, int number[], string word);
 		
-		void setChoice(int choice);
+	    //constructor:
+	    Unscramble();
+		Unscramble(int choice, string numString, string word);
+		
 		//getter:
 		int getChoice();
 		string getWord();
-		int getNumber();
+		string getNumString();
 		
 		//functions:
 		
+		//for the menu
+		void welcomeMessage();
 		void menu();
 		
 		//used to switch the letters in the input string
-		void wordSwap(char& x, char& y);
-		void numSwap(int& x, int& y);
+		void swap(char& x, char& y);
 		
-		//used to obtain how many arrangements the letters of the string
-		//or numbers of the array can be arranged
-		void wordPermute(string str, int i, int z);
-		void numPermute(int num[], int i, int z);
+		//used to obtain how many arrangements the letters/digits can be arranged
+		void permute(string str, int i, int z);
 		
 		//used to display the output
 		void displayDataWord();
@@ -41,7 +43,7 @@ class Unscramble{
 		
 		//used for exit validation
 		void exitProgram();
-		//used for if the user wants to do it again
+		//used for if the user wants to unscramble again
 		void again();
 };
 

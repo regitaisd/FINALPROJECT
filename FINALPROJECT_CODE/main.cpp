@@ -1,18 +1,15 @@
 #include <iostream>
 #include <string>
-#include "FINALPROJECT.hpp"
+#include "FINALPROJECT.hpp" //includes header file
+#include <stdlib.h>
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char** argv) {
 	
-	Unscramble c;
-	int choice;
-	
-	cout << "Welcome to the Word-Number Unscrambling program!" << endl;
-	cout << "This program shows how many ways you can write in a word or a number" << endl;
-	cout << "With the same letters and/or digits" << endl;
-	c.menu();
+	Unscramble c; //so the functions in the class can be used
+	c.welcomeMessage(); //calls the welcomeMessage function
+	c.menu(); //calls the menu function
 	
 	return 0;
 }
